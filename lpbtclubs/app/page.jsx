@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="">
       <div className="frontWelcome">
-        <p className='highSchoolName'>Lycée pilote Bourguiba de Tunis</p>
+        <div className="highschoolinfo"><p className='highSchoolName'>Lycée pilote Bourguiba de Tunis</p><img src="./clubslogos/LPBT.png" alt="" /></div>
         <p className='BigTitle'>BIENVENUE <br />À TOUS LES CLUBS LPBT</p>
         <p className='underBigTitle'>Bienvenue sur le Hub des Clubs LPBT, votre passerelle vers un monde d'opportunités périscolaires passionnantes ! Si vous êtes prêt à plonger dans un univers de créativité, d'exploration et d'amitié, vous êtes au bon endroit.</p>
         <a href="/clubs"><button className='discoverbtn'>DÉCOUVREZ LES CLUBS <img className='rightarrow' src="./imgs/rightarrow.png" alt="" /></button></a>

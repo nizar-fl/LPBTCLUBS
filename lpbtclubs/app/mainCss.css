@@ -82,19 +82,27 @@ main{
 
 @media screen and (min-width: 768px) {
     .highSchoolName{
-        font-size: 18px;
+        font-size: 21px;
         margin-left: 50px;
         padding-top: 30px;
-        background: #23538A;
-        background: -webkit-linear-gradient(to right, #23538A 0%, #A7CFDF 80%);
-        background: -moz-linear-gradient(to right, #23538A 0%, #A7CFDF 80%);
-        background: linear-gradient(to right, #23538A 0%, #A7CFDF 80%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-
+        color: #000032;
+        font-family: "Roboto Condensed", Arial, sans-serif;
+        font-style: normal;
     }
+    
+    .highschoolinfo{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;   
+        padding-right: 40px; 
+}
+.highschoolinfo>img{
+    width: 130px;
+
+}
     .BigTitle{
-        padding-top: 120px; 
+        padding-top: 60px;
+         
         font-size: 70px;
     }
     .underBigTitle{
