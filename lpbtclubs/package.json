@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "autoprefixer": "10.4.15",
+    "emailjs": "^4.0.3",
     "next": "13.4.19",
     "postcss": "8.4.28",
     "react": "18.2.0",

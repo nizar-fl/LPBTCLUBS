@@ -1,0 +1,213 @@
+
+.footerContainer{
+    width: 100%;
+    /* padding: 10px 20px 10px 20px; */
+    background-color: #E6F0FF;
+    margin-top: 200px;
+    
+    
+}
+.feedbackContainer{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.feedbackTitle{
+    color: #1A2847;
+    font-weight: bold;
+    
+}
+.feedbackInput{
+    resize: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #1A2847;
+    padding: 10px;
+}
+.feedbackSubmit{
+    border: 2px solid #1A2847;
+    padding:5px 15px 5px 15px;
+    
+    font-weight: bold;
+    color: #1A2847;
+    
+}
+.copyrightText{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #505050;
+    margin-top: 30px;
+}
+@media screen and (min-width: 768px){
+    .footerContainer{
+        padding: 30px 70px 30px 70px;
+    }
+    .feedbackTitle{
+        color: #1A2847;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .feedbackInput{
+        resize: none;
+        height: 170px;
+        width: 350px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 2px solid #1A2847;
+        padding: 10px;
+    }
+    .feedbackSubmit{
+        border: 2px solid #1A2847;
+        padding:5px 15px 5px 15px;
+        width: 120px;
+        font-weight: bold;
+        color: #1A2847;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+    .feedbackContacts{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .contact{
+        padding: 20px ;
+        width: fit-content;
+        text-align: center;
+    }
+    .email{
+        margin-left: 10px;
+        font-size: 17px;
+
+    }
+    .orContainer{
+        display: flex;
+        align-items: center;
+        margin-left: 35px;
+        margin-top: 10px;
+
+    }
+    .line{
+        width: 30px;
+        height: 2px;
+        margin-right: 3px;
+        margin-left: 3px;
+        background-color: #1A2847;
+    }
+    .socialLink{
+        display: flex;
+        align-items: center;
+        
+        margin-top: 6px;
+        cursor: pointer;
+        width: fit-content;
+    }
+    .socialLink>a>img{
+        width: 25px;
+        height: 25px;
+        margin-right: 20px;
+    }
+    
+    .socialLinks{
+        display: flex;
+        margin-left: 28px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .footerContainer{
+        width: 100%;
+        padding: 30px 20px 30px 20px;
+        background-color: #E6F0FF;
+        margin-top: 200px;
+        
+        
+    }
+    .feedbackContainer{
+        
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+        justify-content: center;
+    }
+    .feedbackTitle{
+        color: #1A2847;
+        /* font-weight: bold; */
+        font-size: 23px;
+        margin:10px 0px 10px 0px;
+        text-align: center;
+        
+    }
+    .feedbackInput{
+        resize: none;
+        border-radius: 10px;
+        min-width: 250px;
+        height: 100px;
+        background-color: transparent;
+        border: 2px solid #1A2847;
+        padding: 10px;
+    }
+    .feedbackSubmit{
+        border: 2px solid #1A2847;
+        padding:5px 15px 5px 15px;
+        margin:10px 0px 10px 0px;
+        width: 50%;
+        font-weight: bold;
+        color: #1A2847;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .contact{
+        padding: 20px ;
+        width: fit-content;
+        text-align: center;
+        margin-left: auto;
+        margin-right:  auto;
+        
+    }
+    .email{
+        margin-left: 10px;
+        font-size: 17px;
+
+    }
+    .orContainer{
+        display: flex;
+        align-items: center;
+        margin-left: 35px;
+        margin-top: 10px;
+
+    }
+    .line{
+        width: 30px;
+        height: 2px;
+        margin-right: 3px;
+        margin-left: 3px;
+        background-color: #1A2847;
+    }
+    .socialLink{
+        display: flex;
+        align-items: center;
+        
+        margin-top: 6px;
+        cursor: pointer;
+        width: fit-content;
+    }
+    .socialLink>a>img{
+        width: 25px;
+        height: 25px;
+        margin-right: 20px;
+    }
+    
+    .socialLinks{
+        display: flex;
+        margin-left: 28px;
+    }
+}

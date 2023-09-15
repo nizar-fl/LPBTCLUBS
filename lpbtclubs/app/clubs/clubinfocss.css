@@ -1,0 +1,219 @@
+
+
+
+
+
+@media screen and (max-width: 767px){
+    .nameLogo{
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+        
+        color: #1a4372;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        
+        
+    }
+    .nameLogo>p{
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .nameLogo>img{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+    
+    }
+    .description{
+        width: 100%;
+        font-size: 19px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 20px;
+        border-radius: 15px;
+    
+    }
+    .mainContainer{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .imgGroup{
+        display: grid;
+        grid-template-rows: 1fr 1Fr 1Fr;
+        row-gap: 20px;
+        margin-top: 100px;
+        /* column-gap: 30px; */
+        margin-bottom: 50px ;
+    
+    }
+    .imgGroup>img{
+       width: 400px;
+        height: 300px;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    .smallTitle{
+        font-size: 25px;
+        font-weight: bold;
+        color: #1a4372;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .contacts{
+        margin-left: auto;
+        margin-right: auto;
+        
+        padding: 20px;
+        width: 40%;
+        margin-top: 70px;
+        color: white;
+        border-radius: 15px;
+    
+        min-width: 300px;
+        min-height: 100px;
+        background-color: #2863a7;
+        margin-bottom: 200px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+    }
+    
+    .roleAndNumber{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: space-between;
+    }
+    .roleAndNumber>p {
+        font-size: 19px;
+    }
+    .phone{
+        display: flex;
+        align-items: center;
+        
+    }
+    .phone>img{
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+    }
+    .socialTitle{
+        font-weight: bold;
+        font-size: 22px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .socialLinks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    
+
+}
+@media screen and (min-width: 768px){
+    .nameLogo{
+        display: flex;
+        width: 100%;
+        
+        padding-right: 10px;
+        color: #1a4372;
+        justify-content: space-between;
+        
+    }
+    .nameLogo>p{
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 60px;
+    }
+    .nameLogo>img{
+        width: 200px;
+        height: 200px;
+        
+    
+    }
+    .description{
+        width: 73%;
+        font-size: 21px;
+    
+    }
+    .mainContainer{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .imgGroup{
+        display: grid;
+        grid-template-columns: 1fr 1Fr 1Fr;
+        margin-top: 100px;
+        /* column-gap: 30px; */
+        margin-bottom: 50px ;
+    
+    }
+    .imgGroup>img{
+       width: 400px;
+        height: 300px;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    .smallTitle{
+        font-size: 25px;
+        font-weight: bold;
+        color: #1a4372;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .contacts{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px;
+        width: 40%;
+        margin-top: 100px;
+        color: white;
+        border-radius: 15px;
+    
+        min-width: 300px;
+        min-height: 100px;
+        background-color: #2863a7;
+        margin-bottom: 200px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+    }
+    
+    .roleAndNumber{
+        margin-bottom: 20px;
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+    }
+    .roleAndNumber>p {
+        font-size: 19px;
+    }
+    .phone{
+        display: flex;
+        align-items: center;
+        
+    }
+    .phone>img{
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+    }
+    .socialTitle{
+        font-weight: bold;
+        font-size: 22px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .socialLinks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    
+}
