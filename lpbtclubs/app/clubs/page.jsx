@@ -26,7 +26,7 @@ export default function page() {
                 </div>
                 <div className="club">
                     <p className="clubname">Press Club</p>
-                    <img  src="./clubslogos/Press Club.jpg" className='clubImage' alt="" />
+                    <img  src="./clubslogos/PRESS CLUB.jpg" className='clubImage' alt="" />
                     <a href="/clubs/Press-club"><button className='moreclubinfo'>PLUS D'INFO<img className='rightarrow' src="./imgs/bluerightarrow.png" alt="" /></button></a>
                 </div>
                 <div className="club">
