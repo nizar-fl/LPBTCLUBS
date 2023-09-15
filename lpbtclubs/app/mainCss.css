@@ -82,7 +82,7 @@ main{
 
 @media screen and (min-width: 768px) {
     .highSchoolName{
-        font-size: 17px;
+        font-size: 18px;
         margin-left: 50px;
         padding-top: 30px;
         background: #23538A;
@@ -94,7 +94,7 @@ main{
 
     }
     .BigTitle{
-        padding-top: 60px; 
+        padding-top: 120px; 
         font-size: 70px;
     }
     .underBigTitle{
@@ -224,3 +224,4 @@ main{
         margin-left: 20px;
     }
 }
+
