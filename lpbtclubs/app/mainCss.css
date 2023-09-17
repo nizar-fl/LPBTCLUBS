@@ -86,7 +86,8 @@ main{
         margin-left: 50px;
         padding-top: 30px;
         color: #000032;
-        font-family: "Roboto Condensed", Arial, sans-serif;
+        /* font-family: "Roboto Condensed", Arial, sans-serif; */
+        font-weight: bold;
         font-style: normal;
     }
     
@@ -175,15 +176,22 @@ main{
 
 @media screen and (max-width: 767px) {
     .highschoolinfo>img{
-        display: none;
+        width: 65px;
+        
+
+    }
+    .highschoolinfo{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px 0px 20px;
     }
     .frontWelcome{
         min-height: 100vh;   
      }
      .highSchoolName{
         width: 180px;
-        padding-top: 20px;
-        padding-left: 20px;
+        
+        
         color: #386393 ;
 
 

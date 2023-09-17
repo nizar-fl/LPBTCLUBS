@@ -48,7 +48,7 @@ TIMUN est une organisation pionnière dans son domaine. En effet, nous avons org
           <div className="socials">
             
             {/* <div className='whitelie'/> */}
-            <p className="socialTitle">COMPTE SOCIAL</p>
+            <p className="socialTitle">COMPTES SOCIAUX</p>
             <div className="socialLinks">
               <a href="https://www.facebook.com/profile.php?id=100066827237771" target="_blank" rel="noopener noreferrer"><img style={{marginRight:"30px"}} src="../imgs/fblogo.png" alt="" /></a>
               <a href="https://www.instagram.com/timun_lpbt/" target="_blank" rel="noopener noreferrer"><img style={{marginRight:"30px"}} src="../imgs/iglogo.png" alt="" /></a>

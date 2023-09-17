@@ -32,7 +32,7 @@ Ce pour garantir un vrai enrichissement aux futurs citoyens et leur passer le fl
       
        <div className="contacts">
        <div className="roleAndNumber">
-            <p className="role">   Gmail: lpbtspaceclub@gmail.com
+            <p className="role">   Email: lpbtspaceclub@gmail.com
 </p><br />
             <div className="phone">
               <img className='' src="../imgs/phoneIconW.png" alt="sdsd" />
@@ -43,7 +43,7 @@ Ce pour garantir un vrai enrichissement aux futurs citoyens et leur passer le fl
           <div className="socials">
             
             {/* <div className='whitelie'/> */}
-            <p className="socialTitle">COMPTE SOCIAL</p>
+            <p className="socialTitle">COMPTES SOCIAUX</p>
             <div className="socialLinks">
               <a href="https://www.facebook.com/ClubEspaceLPBT" target="_blank" rel="noopener noreferrer"><img style={{marginRight:"30px"}} src="../imgs/fblogo.png" alt="" /></a>
               <a href="https://www.instagram.com/clubespace/" target="_blank" rel="noopener noreferrer"><img style={{marginRight:"30px"}} src="../imgs/iglogo.png" alt="" /></a>

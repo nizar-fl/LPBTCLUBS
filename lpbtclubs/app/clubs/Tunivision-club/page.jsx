@@ -39,7 +39,7 @@ ajoutée.</p>
       
        <div className="contacts">
        <div className="roleAndNumber">
-            <p className="role">   Gmail: ctjuniorlpbt@gmail.com
+            <p className="role">   Email: ctjuniorlpbt@gmail.com
 </p><br />
             <div className="phone">
               <img className='' src="../imgs/phoneIconW.png" alt="sdsd" />

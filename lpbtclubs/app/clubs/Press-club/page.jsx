@@ -37,7 +37,7 @@ export default function page() {
       
        <div className="contacts">
        <div className="roleAndNumber">
-            <p className="role">   Gmail:  lpbtpc@gmail.com</p>
+            <p className="role">   Email:  lpbtpc@gmail.com</p>
             <div className="phone">
               <img className='' src="../imgs/phoneIconW.png" alt="sdsd" />
             <p className='phone number'>27003668</p>

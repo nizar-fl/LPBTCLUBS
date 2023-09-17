@@ -28,7 +28,7 @@ export default function page() {
       
        <div className="contacts">
        <div className="roleAndNumber">
-            <p className="role">   Gmail:  chessclublpbt@gmail.com
+            <p className="role">   Email:  chessclublpbt@gmail.com
 </p>
            
             

@@ -30,7 +30,7 @@ export default function page() {
       
        <div className="contacts">
        <div className="roleAndNumber">
-            <p className="role">   Gmail: bil.lpbt1@gmail.com
+            <p className="role">   Email: bil.lpbt1@gmail.com
 </p><br />
             
 
@@ -39,7 +39,7 @@ export default function page() {
           <div className="socials">
             
             {/* <div className='whitelie'/> */}
-            <p className="socialTitle">COMPTE SOCIAL</p>
+            <p className="socialTitle">COMPTES SOCIAUX</p>
             <div className="socialLinks">
               <a href="https://www.facebook.com/billpbt/" target="_blank" rel="noopener noreferrer"><img style={{marginRight:"30px"}} src="../imgs/fblogo.png" alt="" /></a>
               <a href="https://www.instagram.com/billpbt/" target="_blank" rel="noopener noreferrer"><img style={{marginRight:"30px"}} src="../imgs/iglogo.png" alt="" /></a>

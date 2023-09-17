@@ -37,7 +37,7 @@ export default function Footer() {
         <div className="contact">
           <p className="feedbackTitle">CONTACT</p>
           
-          <p className='email'>NizarFl1@gmail.com</p>
+          <p className='email'>nizarflahi11@gmail.com</p>
           <div className="orContainer">
             <div className="line"/>
             <p className="or">OU</p>
