@@ -102,7 +102,7 @@ main{
 
 }
     .BigTitle{
-        padding-top: 60px;
+        padding-top: 20px;
          
         font-size: 70px;
     }
@@ -190,9 +190,7 @@ main{
      }
      .highSchoolName{
         width: 180px;
-        
-        
-        color: #386393 ;
+        color: #000032;
 
 
      }
