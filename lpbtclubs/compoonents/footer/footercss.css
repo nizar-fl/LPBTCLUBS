@@ -75,18 +75,20 @@
     }
     .contact{
         padding: 20px ;
+        display: flex;
+        flex-direction: column;
         width: fit-content;
         text-align: center;
     }
     .email{
-        margin-left: 10px;
+        
         font-size: 17px;
 
     }
     .orContainer{
         display: flex;
         align-items: center;
-        margin-left: 35px;
+        justify-content: center;
         margin-top: 10px;
 
     }
@@ -166,6 +168,11 @@
         
     }
     .contact{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
         padding: 20px ;
         width: fit-content;
         text-align: center;
@@ -174,14 +181,14 @@
         
     }
     .email{
-        margin-left: 10px;
+       
         font-size: 17px;
 
     }
     .orContainer{
         display: flex;
         align-items: center;
-        margin-left: 35px;
+        /* margin-left: 35px; */
         margin-top: 10px;
 
     }
@@ -195,7 +202,6 @@
     .socialLink{
         display: flex;
         align-items: center;
-        
         margin-top: 6px;
         cursor: pointer;
         width: fit-content;
